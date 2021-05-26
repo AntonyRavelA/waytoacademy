@@ -6,7 +6,7 @@ import {
 const Header = () => {
     return (
     <nav className="navbar navbar-expand navbar-light bg-light">
-      <a className="navbar-brand" href="#">Way To ACADEMY</a>
+        <Link className="navbar-brand" to="/">WAY TO ACADEMY</Link>
         <ul className="navbar-nav">
           <li className='nav-item'>
             <Link className="nav-link" to="/">Home</Link>
