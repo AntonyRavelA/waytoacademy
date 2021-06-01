@@ -10,6 +10,8 @@ import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import CreateClass from './components/CreateClass/CreateClass'
 import MyProfile from './components/MyProfile/MyProfile'
+import Classes from './components/Classes/Classes'
+import Display from './components/Classes/Display'
 
 function App() {
   return (
@@ -29,8 +31,14 @@ function App() {
           <Route path="/my-profile">
             <MyProfile />
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/Home/:producttype?" exact>
+            <Classes />
+          </Route>
+          <Route path="/Home/:producttype?/:id?" exact>
+            <Display />
           </Route>
         </Switch>
       </div>
