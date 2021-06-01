@@ -1,4 +1,3 @@
-
-const Home = () => <h2>Home</h2>;
+const Home = () => <h2>Create Class</h2>;
 
 export default Home;

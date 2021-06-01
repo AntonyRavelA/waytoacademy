@@ -1,4 +1,5 @@
-
-const CreateClass = () => <h2>Create Class</h2>;
+const CreateClass = () => {
+    
+}
 
 export default CreateClass;
