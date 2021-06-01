@@ -23,7 +23,7 @@ const Home = () => {
                     <div className="card">
                         <img src={Image.gym} className="borderImg" />
                         <h3>Gym class</h3>
-                        <p>City's best dancing class. Hurry up, sign up quickly!</p>
+                        <p>City's best gym class. Hurry up, sign up quickly!</p>
                     </div>
                 </div>
             </div>
