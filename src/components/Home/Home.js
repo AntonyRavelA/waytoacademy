@@ -50,12 +50,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="row">
-                <div className="col-4">
-                    <img src={driving} className="borderImg" />
-                    <h3>Driving class</h3>
-                </div>
-            </div> */}
         </div>
     );
 }
