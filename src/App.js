@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="container-fluid">
-        <Header />        
+        {/* <Header />         */}
         <Switch>        
           <Route path="/login">
             <Login />
