@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Header from './Ui/Header/Header'
-import Home  from './components/Home/Home'
+import Home from './components/Home/Home'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import CreateClass from './components/CreateClass/CreateClass'
@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <div className="container-fluid">
-        <Header />        
-        <Switch>        
+        {/* <Header />         */}
+        <Switch>
           <Route path="/login">
             <Login />
           </Route>
