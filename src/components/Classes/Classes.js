@@ -13,7 +13,7 @@ const Temp = () => {
     
     return(
         <div> 
-            <Nav />
+            {/* <Nav /> */}
         {/* <div className="tempcls"> */}
         <div className="rows">
         {products.map(prod => 
