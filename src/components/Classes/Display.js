@@ -1,29 +1,35 @@
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import content from './Content';
 import {useParams} from 'react-router-dom';
 import './Template.css';
-const Display = (props) => {
+import Axios from 'axios';
+function Display(){
         console.log("hi");    
         let {id} = useParams();
         id = Number(id);
-        
+        const [ID,setID] = useState([]);
        console.log(`Content file : ${typeof(id)}`);
         let Details = [...content];
-        if(true){
-            Details =  Details.filter(detail => detail.Img_ID === id);
-        }
-        console.log(Details);
-           
+        // if(true){
+        //     Details =  Details.filter(detail => detail.Img_ID === id);
+        // }
+        // console.log(Details);
+        useEffect(()=>{
+            Axios.post("http://localhost:5000/Display",{id : id}).then((Response)=>{
+                console.log("Res",Response);
+                setID(Response.data);             
+            },);
+        },[]);
         function Alert(){
             alert("!! You have Joined !!");
         }
         return(
             <div>
                 {/* <HEADER/> */}
-                {Details.map(detail =>
-                <div key={detail.Img_ID}> 
+                {ID.map(detail =>
+                <div key={detail.ID}> 
                     <div className = "ImageDiv">
-                    <img src = {detail.Img_Src} alt = "is here" width = "450" height = "450"/>        
+                    <img src = {detail.ImageSrc} alt = "is here" width = "450" height = "450"/>        
                 </div>
                 <div className = "ContentDiv">
                     <p><font><b>Nambi Vaanga Sandhosama Ponga !!</b></font></p>

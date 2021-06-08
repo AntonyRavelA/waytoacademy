@@ -1,22 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css';
 import Image from './Images';
 import {Link} from 'react-router-dom';
+import Axios from 'axios';
 import Nav from './Nav'
 const Home = () => {
+    const [name ,setname] = useState([]);
+    // function Sample(producttype){
+    //     Axios.post("http://localhost:5000/classes",{producttype : producttype}).then(()=>{
+    //         alert("Superrr");
+    //     });
+    useEffect(()=>{
+        Axios.get("http://localhost:5000/Home").then((Response)=>{
+            setname(Response.data);
+        });
+    },[]);
+    // console.log("VALUE",name[1].ID);
+    // console.log(typeof(name))
+    // let O = Object.assign({}, name);
+    // console.log(O);
+    var result = Object.keys(name).map((key) => name[key]);
+    console.log(result);
     return (
         <div className="container"> 
             {/* <Nav /> */}
         {/* <div className="tempcls"> */}
         <div className="row">
-        {Image.map(prod => 
+        {name.map(prod => 
         <div className="col-4">
-            <div className="card" >
-            <Link to="/Home/yoga" >
-                    <img src={prod.name} className="borderImg" />
+            <div className="card" >      
+            <Link to={location => `/Home/${prod.ImageName}`}>
+                    <img src={prod.ImageSrc} alt = "here !!" className="borderImg" />
              </Link>
-                    <h3>Yoga class</h3>
-               <p>City's best yoga class. Hurry up ,sign up quickly!</p>
+                    <h3>{prod.ImageName}</h3>
+               <p>{prod.ID}</p>
             </div>
             </div>
            
