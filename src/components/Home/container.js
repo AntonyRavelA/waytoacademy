@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import cooking from './images/cooking.jpg';
-import dancing from './images/dancing.jpg';
-import driving from './images/driving.jpg';
-import guitar from './images/guitar.jpg';
-import painting from './images/painting.jpg';
-import yoga from './images/yogo.jpg';
-import martial from './images/martial-arts.jpg';
+import cooking from './Images/cooking.jpg';
+import dancing from './Images/dancing.jpg';
+import guitar from './Images/guitar.jpg';
+import painting from './Images/painting.jpg';
+import yoga from './Images/yogo.jpg';
+import martial from './Images/martial-arts.jpg';
 
 
 function Container() {

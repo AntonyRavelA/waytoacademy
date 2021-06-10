@@ -13,7 +13,7 @@ function Nav() {
                     </Link>
                 </li>
                 <li>
-                    <Link  to="/Home/chess">
+                    <Link  to="/product/chess">
                         Yoga
                     </Link>
                 </li>                            
