@@ -1,4 +1,3 @@
-
-const MyProfile = () => <h2>My Profile</h2>;
+const MyProfile = () => <h2>Create Class</h2>;
 
 export default MyProfile;

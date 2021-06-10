@@ -1,4 +1,3 @@
-
-const Register = () => <h2>Register</h2>;
+const Register = () => <h2>Create Class</h2>;
 
 export default Register;
