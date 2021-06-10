@@ -1,38 +1,22 @@
 import React from 'react';
 import './App.css';
 
+import './Home.css'
+import {Link} from 'react-router-dom'
 function Nav() {
     return (
         <div className="nav">
             <ul>
-
-
-
-
                 <li>
-                    <a className="active" href="#">Home</a>
+                    <Link to="/" className="active">
+                        Home
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">Yoga</a>
-                </li>
-                <li>
-                    <a href="#">Cooking</a>
-                </li>
-                <li>
-                    <a href="#">Dancing</a>
-                </li>
-                <li>
-                    <a href="#">Guitar</a>
-                </li>
-                <li>
-                    <a href="#">Painting</a>
-                </li>
-                <li>
-                    <a href="#">Martial arts</a>
-                </li>
-                <li>
-                    <a href="#">Driving</a>
-                </li>
+                    <Link  to="/Home/chess">
+                        Yoga
+                    </Link>
+                </li>                            
             </ul>
         </div>
     );
