@@ -1,0 +1,101 @@
+
+.logo{
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.brandname {
+    padding: 70px;
+    padding-left: 1px ;
+    font-size: 40px;
+    font-weight: 900;
+    color: dodgerblue;
+    font-family: Impact, fantasy;
+    margin-left: 70px;
+    margin-top: -130px; 
+    float: left;
+   }
+  .searchbar{
+    padding-top: 14px;
+    margin-left: 280px; 
+    margin-top: -78px;
+  }
+   .search {
+    
+    width: 30%;
+    border-radius: 15px;
+    font-family: Impact, fantasy;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    top: 1px;
+    right:30px;
+    z-index: 5;
+   }
+  
+   .gobutton {
+      
+      background-color:dodgerblue;
+      border-radius: 30%;
+      border: none;
+      color: white;
+      padding: 10px;
+      font-family: Impact, fantasy;
+      text-align: center;
+      text-decoration: none;
+     
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button-homepage {
+        float: right;
+        background-color: dodgerblue;
+        color: white;
+        padding: 10px;
+        border: none;
+        text-align: center;
+        font-family: Impact, fantasy;
+        text-decoration: none;
+        border-radius:50px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 140px;
+        margin-right: 20px;
+        margin-top: -65px;
+         }
+
+       .button1 {
+            float: right;
+            background-color: dodgerblue;
+            border-radius:50px;
+            border: none;
+            color:white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-family: Impact, fantasy;
+            font-size: 20px;
+            cursor: pointer;
+            width: 150px;
+            margin-right: 110px;
+            margin-top: -63px;
+          }
+          .button2 {
+            float: right;
+            background-color: dodgerblue;
+            border-radius:50px;
+            border: none;
+            color:white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-family: Impact, fantasy;
+            font-size: 20px;
+            cursor: pointer;
+            width: 80px;
+            margin-right: 20px;
+            margin-top: -63px;
+          }
+          

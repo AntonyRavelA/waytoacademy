@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="container-fluid">
-        {/* <Header />         */}
+        <header />
         <Switch>
           <Route path="/login">
             <Login />
@@ -35,7 +35,8 @@ function App() {
         </Switch>
       </div>
     </Router>
-  );
-}
+  );        
+    }
 
+}
 export default App;
