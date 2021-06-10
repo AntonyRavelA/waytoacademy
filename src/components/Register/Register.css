@@ -1,0 +1,80 @@
+.Div1 img{
+    margin-top :  50px;
+    margin-left : 719px;
+}
+.Div1 p{
+    color: dodgerblue;
+    margin-top: 7px;
+    margin-left: 655px;
+}
+.Div2 p{
+    margin-left: 615px;
+    color : dodgerblue;
+}
+
+.Div3 {
+    margin-left : 685px;
+    margin-top:-36.9px;
+    
+}
+
+.Div3 input {
+    margin: 0 130px 0 -15px;
+    width:30px;
+    height:15px;
+    cursor: pointer;
+}
+.Div3 span{
+    padding-right: 30px;
+}
+.Div4 {
+    margin-top: -26.9px;
+    margin-left: 12px;
+}
+.Div5{
+    margin-top: -23.4px;
+    margin-left: 158px;
+}
+
+
+.Button {
+    padding:8px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left : 695px;
+    background-color : dodgerblue;
+    color : white;
+    border : 0px;
+    font-size : 15px;
+    border-radius: 30px;
+    width: 8%;
+}
+.Table input{
+    padding: 3px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid lightslategray;
+}
+.Table td{
+    width:350px;
+    padding : 15px;
+}
+.Table th{
+    color : #1e90ff;
+}
+
+.Table th.th1{
+    padding-left: 25px;
+}
+.Table th.th2{
+    padding-left: 25px;
+}
+.Table th.th3{
+    padding-left: 23px;
+}
+.Table th.th4{
+    padding-left: 23px;
+}
